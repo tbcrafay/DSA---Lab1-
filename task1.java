@@ -2,6 +2,7 @@ class HelloWorld {
     public static void main(String[] args) {
         String s1 = "How are you!?";
         String str = "I'm good";
+        String str = str.concat(":)");
         String str2 = new String("Java");
         //intern method:
         String s5 = str2.intern();
